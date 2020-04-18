@@ -75,6 +75,7 @@ def runner
      deal_card
      puts "#{card_total += deal_card}"
     end
+    card_total += deal_card
   end
   card_total
 end
