@@ -72,7 +72,8 @@ def runner
     if input == "s"
       hit?(card_total)
     elsif input == "h"
-      card_total += deal_card
+     deal_card
+     puts "#{card_total += deal_card}"
     end
   end
   card_total
