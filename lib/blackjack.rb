@@ -65,11 +65,14 @@ end
 def runner
   # code runner here
   until card_total > 21
+  card_total = 0
   welcome
   initial_round
   input = hit?(card_total)
     if input == "s"
       hit?(card_total)
+    elsif input == "h"
+      card_total += deal_card
     end
   end
 end
