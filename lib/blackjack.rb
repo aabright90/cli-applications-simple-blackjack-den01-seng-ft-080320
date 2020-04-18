@@ -68,7 +68,6 @@ def runner
   until card_total > 21
   welcome
   initial_round
-  input = get_user_input
     if input == "s"
       hit?(card_total)
     elsif input == "h"
