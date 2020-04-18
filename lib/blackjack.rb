@@ -75,4 +75,5 @@ def runner
       card_total += deal_card
     end
   end
+  card_total
 end
