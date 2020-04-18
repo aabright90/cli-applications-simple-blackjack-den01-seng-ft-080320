@@ -71,5 +71,5 @@ def runner
     if input == "s"
       hit?(card_total)
     end
-  end 
+  end
 end
