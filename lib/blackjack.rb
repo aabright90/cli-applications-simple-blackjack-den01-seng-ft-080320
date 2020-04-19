@@ -68,12 +68,7 @@ def runner
   until card_total > 21
   welcome
   card_total = initial_round
-    if input == "s"
-      hit?(card_total)
-    elsif input == "h"
-     deal_card
-     puts "#{card_total += deal_card}"
-    end
+    card_total = hit?(card_total)
     card_total += deal_card
   end
   card_total
