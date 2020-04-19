@@ -48,6 +48,7 @@ def hit?(card_total)
   elsif input != "h" && input != "s"
     invalid_command
     hit?(card_total)
+    end_game(card_total)
   end
   sum
 end
